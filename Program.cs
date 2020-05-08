@@ -42,7 +42,7 @@ namespace Curso.NetCore
             }
             else
             {
-                Console.WriteLine("Id inexistente.");
+                Console.WriteLine("Id inexistente. Favor inserir um id válido");
             }
 
 
