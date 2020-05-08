@@ -34,7 +34,7 @@ namespace Curso.NetCore
 
             if (funcionarioList.Find(x => x.Id == id) != null)
             {
-                Console.Write("Informe o percentual de aumento: ");
+                Console.Write("Informe o percentual de aumento a ser efetuado: ");
                 double perc = double.Parse(Console.ReadLine());
 
                 Funcionario func = funcionarioList.Find(x => x.Id == id);
